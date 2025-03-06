@@ -13,7 +13,7 @@ st.set_page_config(page_title="Health Assistant",
 
 # loading the saved models
 
-diabetes_model = pickle.load(open('C:/Users/Dell/Downloads/multiple-disease-prediction-streamlit-app-main/multiple-disease-prediction-streamlit-app-main/saved_models/diabetes_model.sav', 'rb'))
+diabetes_model = pickle.load(open("C:\\Users\\Dell\\Downloads\\multiple-disease-prediction-streamlit-app-main\\multiple-disease-prediction-streamlit-app-main\\saved_models\\diabetes_model.sav", 'rb'))
 
 heart_disease_model = pickle.load(open('C:/Users/Dell/Downloads/multiple-disease-prediction-streamlit-app-main/multiple-disease-prediction-streamlit-app-main/saved_models/heart_disease_model.sav', 'rb'))
 
